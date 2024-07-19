@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tasks {
+  width: 45%;
+  text-align: left;
+}
+
+.tasks h2 {
+  background-color: #61dafb;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+.tasks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tasks li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks li button {
+  margin-left: 5px;
+}
+
+.tasks li:last-child {
+  border-bottom: none;
+}
